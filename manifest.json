@@ -1,0 +1,15 @@
+{
+    "name": "TVThek 2 VLC",
+    "version": "0.1",
+    "description": "Watch tvthek.orf.at content in VLC!",
+    "permissions": [
+	"http://tvthek.orf.at"
+    ],
+    "content_scripts": [
+	{
+	    "matches": ["http://tvthek.orf.at/*"],
+	    "js": ["tvthek2vlc.js"],
+	    "run_at": "document_end"
+	}
+    ]
+}
