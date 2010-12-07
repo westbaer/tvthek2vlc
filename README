@@ -1,6 +1,10 @@
 Chrome extension which allows you to watch tvthek.orf.at content in VLC.
 Licensed under WTFPL.
 
+HOWTO:
+1) Click the 'open playlist in external player' button. (http://imgur.com/aRxJH.png)
+2) Enjoy!
+
 Disclaimer:
 This extension is really just a quick hack. I cannot guarantee that every video gets parsed correctly.
 
